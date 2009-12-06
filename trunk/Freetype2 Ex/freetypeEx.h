@@ -6,6 +6,9 @@
 
 extern "C" {
 
+#pragma comment( lib, "freetype2311MT.lib" )
+#pragma comment( lib, "freetype2311MT_D.lib" )
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
