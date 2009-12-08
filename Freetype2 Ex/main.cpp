@@ -1,8 +1,12 @@
 
 #include "freetypeEx.h"
+#include "GLUT/JglutAfx.h"
 
 int main()
 {
+	int argc = 1;
+	char* argv[] = { "test", "" };
+	JinitGLUT( NULL, argc, argv );
 	FT_Library    library;
 	FT_Face       face;
 
